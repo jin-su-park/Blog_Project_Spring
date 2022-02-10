@@ -175,8 +175,6 @@ header.masthead {
 		
 		//목록 개수가 변동하는 이벤트 처리
 		$("#count-per-page .btn-izone").click(function() {
-			//console.log("목록 버튼이 클릭됨!");
-			//console.log($(this).val());
 			let count = $(this).val();
 			const keyword = "${param.keyword}";
 			const condition = "${param.condition}";
@@ -203,7 +201,7 @@ header.masthead {
 		//엔터키 입력 이벤트
 		$("#keywordInput").keydown(function (key) {
 			 
-	        if(key.keyCode == 13){//키가 13이면 실행 (엔터는 13)
+	        if(key.keyCode == 13){
 	        	$("#searchBtn").click();
 	        }
 	 

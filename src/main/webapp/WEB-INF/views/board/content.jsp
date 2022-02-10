@@ -21,7 +21,6 @@ if(msg === "modSuccess") {
 $(function() {
 	
 	
-	//변수는 let, 상수는 const로 선언(ES2015 문법)
 	const formElement = $("#formObj");
 	
 	//목록버튼 클릭이벤트 처리
@@ -34,7 +33,6 @@ $(function() {
 	});
 	
 	//수정버튼 클릭이벤트 처리
-	//var modifyBtn = document.getElementById("modBtn"); //vanila js
 	var modifyBtn = $("#modBtn"); //jQuery
 	
 	modifyBtn.click(function() {

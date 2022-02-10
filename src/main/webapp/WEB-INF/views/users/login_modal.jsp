@@ -212,7 +212,7 @@ $(function() {
 	const getMail = RegExp(/^[A-Za-z0-9_\.\-]+@[A-Za-z0-9\-]+\.[A-Za-z0-9\-]+/);
 	let chk1 = false, chk2 = false, chk3 = false, chk4 = false;
 	
-	//회원가입 검증~~
+	//회원가입 검증
 	//ID 입력값 검증.
 	$('#user_id').on('keyup', function() {
 		if($("#user_id").val() === ""){

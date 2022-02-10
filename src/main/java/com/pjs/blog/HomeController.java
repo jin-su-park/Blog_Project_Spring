@@ -22,6 +22,7 @@ public class HomeController {
 		return "home";
 	}
 	
+	//introduce 설정
 	@GetMapping("/introduce")
 	public String introduce() {return "introduce/introduce";}
 	
