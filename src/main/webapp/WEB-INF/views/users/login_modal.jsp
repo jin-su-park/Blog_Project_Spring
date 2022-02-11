@@ -75,14 +75,6 @@
 									회원가입</a>
 							</td>
 						</tr>
-						<tr>
-							<td	style="width: 100%; text-align: center; colspan: 2; margin-top: 24px; padding-top: 12px; border-top: 1px solid #ececec">
-
-								<a id="custom-login-btn" href="https://kauth.kakao.com/oauth/authorize?client_id=1b99bdb2b2d8b2b7b7f7c7ee8f97842b&redirect_uri=http://localhost:8181/ggbro/kakaoLogin&response_type=code">
-									<img src="//mud-kage.kakao.com/14/dn/btqbjxsO6vP/KPiGpdnsubSq3a0PHEGUK1/o.jpg" width="300"/>
-								</a>
-							</td>
-						</tr>
 					</table>
 				</form>
 			</div>
