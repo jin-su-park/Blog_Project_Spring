@@ -9,6 +9,7 @@ header.masthead {
 </style>
 
 <br/><br/>
+<!-- 비밀번호 변경 페이지<my page> -->
 <div class="row">
 <div class="col-md-3"></div>
 

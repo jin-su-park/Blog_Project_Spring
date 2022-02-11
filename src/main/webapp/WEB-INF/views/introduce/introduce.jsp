@@ -22,6 +22,7 @@ td > span {
 }
 </style>
 
+<!-- 선수단 소개 페이지 -->
 <!-- Member Grid -->
 <div class="container">
 

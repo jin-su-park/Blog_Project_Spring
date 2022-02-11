@@ -77,6 +77,7 @@ function listReply(num){
 }
 </script>
 <br/><br/>
+<!-- 게시글 상세 정보 페이지 -->
 <div class="container">
 	<h4>
 		<span style="color:#00008B;">Totenham</span>&people 게시물

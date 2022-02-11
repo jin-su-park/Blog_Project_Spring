@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+<!-- 홈 화면 페이지 -->
 <jsp:include page="include/header.jsp" />
 
 <script>

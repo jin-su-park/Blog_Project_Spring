@@ -27,6 +27,7 @@ $(function(){
 });
 
 </script>
+<!-- 게시글 댓글 목록 -->
 <body>
 <c:forEach var="reply" items="${list }">
 	<div class="container">

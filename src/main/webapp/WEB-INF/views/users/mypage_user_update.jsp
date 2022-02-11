@@ -8,7 +8,7 @@ header.masthead {
 	display: none;
 }
 </style>
-
+<!-- 회원 정보 수정 페이지 -->
 <br />
 <br />
 <div class="row">

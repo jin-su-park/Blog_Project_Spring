@@ -35,7 +35,7 @@ header.masthead {
  
     <!-- Begin Page Content -->
 	
-
+<!-- 게시글 목록 페이지 -->
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-2">

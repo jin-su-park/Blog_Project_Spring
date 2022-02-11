@@ -8,6 +8,7 @@ header.masthead {
 	display: none;
 }	
 </style>
+<!-- 게시글 수정 페이지 -->
 <br/><br/>
 <div class="container">
 	<div class="row">

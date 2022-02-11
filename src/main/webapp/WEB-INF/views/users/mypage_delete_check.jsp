@@ -7,7 +7,7 @@ header.masthead {
 	display: none;
 }	
 </style>
-
+<!-- 회원 탈퇴 페이지 -->
 <br/><br/>
 <div class="row">
 <div class="col-md-3"></div>
