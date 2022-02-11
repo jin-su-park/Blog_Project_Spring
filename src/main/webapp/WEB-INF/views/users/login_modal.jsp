@@ -256,7 +256,7 @@ $(function() {
 		//비밀번호 공백 확인
 		if($("#password").val() === ""){
 		    $('#password').css("background-color", "pink");
-			$('#pwChk').html('<b style="font-size:14px;color:red;">[패스워드는 필수정보!]</b>');
+			$('#pwChk').html('<b style="font-size:14px;color:red;">[비밀번호는 필수정보!]</b>');
 			chk2 = false;
 		}		         
 		//비밀번호 유효성검사
@@ -266,7 +266,7 @@ $(function() {
 			chk2 = false;
 		} else {
 			$('#password').css("background-color", "aqua");
-			$('#pwChk').html('<b style="font-size:14px;color:green;">[참 잘했어요]</b>');
+			$('#pwChk').html('<b style="font-size:14px;color:green;">[비밀번호 입력이상없음]</b>');
 			chk2 = true;
 		}
 		
@@ -277,17 +277,17 @@ $(function() {
 		//비밀번호 확인란 공백 확인
 		if($("#password_check").val() === ""){
 		    $('#password_check').css("background-color", "pink");
-			$('#pwChk2').html('<b style="font-size:14px;color:red;">[패스워드확인은 필수정보!]</b>');
+			$('#pwChk2').html('<b style="font-size:14px;color:red;">[비밀번호확인은 필수정보!]</b>');
 			chk3 = false;
 		}		         
 		//비밀번호 확인란 유효성검사
 		else if($("#password").val() != $("#password_check").val()){
 		    $('#password_check').css("background-color", "pink");
-			$('#pwChk2').html('<b style="font-size:14px;color:red;">[위에랑 똑같이!!]</b>');
+			$('#pwChk2').html('<b style="font-size:14px;color:red;">[비밀번호가 다릅니다]</b>');
 			chk3 = false;
 		} else {
 			$('#password_check').css("background-color", "aqua");
-			$('#pwChk2').html('<b style="font-size:14px;color:green;">[참 잘했어요]</b>');
+			$('#pwChk2').html('<b style="font-size:14px;color:green;">[비밀번호 재입력이상없음]</b>');
 			chk3 = true;
 		}
 		
@@ -308,7 +308,7 @@ $(function() {
 			chk4 = false;
 		} else {
 			$('#user_name').css("background-color", "aqua");
-			$('#nameChk').html('<b style="font-size:14px;color:green;">[참 잘했어요]</b>');
+			$('#nameChk').html('<b style="font-size:14px;color:green;">[이름입력]</b>');
 			chk4 = true;
 		}
 		
@@ -325,11 +325,11 @@ $(function() {
 		//이메일값 유효성검사
 		else if(!getMail.test($("#user_email").val())){
 		    $('#user_email').css("background-color", "pink");
-			$('#emailChk').html('<b style="font-size:16px;color:red;">[이메일 형식 몰라?]</b>');
+			$('#emailChk').html('<b style="font-size:16px;color:red;">[이메일 형식으로 작성해주세요]</b>');
 			chk5 = false;
 		} else {
 			$('#user_email').css("background-color", "aqua");
-			$('#emailChk').html('<b style="font-size:16px;color:green;">[참 잘했어요~♡]</b>');
+			$('#emailChk').html('<b style="font-size:16px;color:green;">[이메일입력이상없음]</b>');
 			chk5 = true;
 		}
 		
