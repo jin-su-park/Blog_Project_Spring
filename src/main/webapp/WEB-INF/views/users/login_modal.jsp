@@ -175,7 +175,7 @@
 
 						<tr>
 							<td style="padding-top: 10px; text-align: center">
-								<p><strong>회원가입하셔서 Totenham&People이 되어보세요~~!</strong></p>
+								<p><strong>회원가입하셔서 Tottenham&People이 되어보세요~~!</strong></p>
 							</td>
 						</tr>
 						<tr>
