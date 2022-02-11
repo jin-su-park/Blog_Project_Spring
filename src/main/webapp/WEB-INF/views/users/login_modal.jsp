@@ -19,7 +19,7 @@
 			<!-- Modal body -->
 			<div class="modal-body">
 
-				<form action="#" name="izone-sign-in" method="post" id="signInForm"
+				<form action="#" name="tottenham-sign-in" method="post" id="signInForm"
 					style="margin-bottom: 0;">
 					<table style="cellpadding: 0; cellspacing: 0; margin: 0 auto; width: 100%">
 						<tr>
@@ -90,7 +90,7 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<h4 class="modal-title">
-					<span style="color: #00008B;">Totenham&People</span> 회원 가입
+					<span style="color: #00008B;">Tottenham&People</span> 회원 가입
 				</h4>
 				<button type="button" class="close" data-dismiss="modal">×</button>
 
@@ -169,13 +169,13 @@
 								class="form-control tooltipstered" 
 								required="required" aria-required="true"
 								style="margin-bottom: 25px; width: 100%; height: 40px; border: 1px solid #d9d9de"
-								placeholder="ex) izone@produce.com"></td>
+								placeholder="ex) tottenham@naver.com"></td>
 						</tr> 
 						
 
 						<tr>
 							<td style="padding-top: 10px; text-align: center">
-								<p><strong>회원가입하셔서 WIZONE이 되어보세요~~!</strong></p>
+								<p><strong>회원가입하셔서 Totenham&People이 되어보세요~~!</strong></p>
 							</td>
 						</tr>
 						<tr>
