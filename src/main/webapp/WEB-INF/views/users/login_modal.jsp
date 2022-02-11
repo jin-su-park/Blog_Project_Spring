@@ -400,11 +400,11 @@ $(function() {
 		//아이디 유효성검사
 		else if(!getIdCheck.test($("#signInId").val())){
 			$('#signInId').css("background-color", "pink");
-			$('#idCheck').html('<b style="font-size:14px;color:red;">[영문자,숫자 4-14자~]</b>');	  
+			$('#idCheck').html('<b style="font-size:14px;color:red;">[영문자,숫자 4-14자]</b>');	  
 			chk1 = false;
 		} else {
 			$('#signInId').css("background-color", "aqua");
-			$('#idCheck').html('<b style="font-size:14px;color:green;">[참 잘했어요]</b>');
+			$('#idCheck').html('<b style="font-size:14px;color:green;">[아이디 입력이상없음]</b>');
 			chk1 = true;
 		}
 	});
@@ -424,7 +424,7 @@ $(function() {
 			chk2 = false;
 		} else {
 			$('#signInPw').css("background-color", "aqua");
-			$('#pwCheck').html('<b style="font-size:14px;color:green;">[참 잘했어요]</b>');
+			$('#pwCheck').html('<b style="font-size:14px;color:green;">[비밀번호 입력이상없음]</b>');
 			chk2 = true;
 		}
 		
