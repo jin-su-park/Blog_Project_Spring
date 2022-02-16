@@ -22,7 +22,7 @@ header.masthead {
         
           				<div class="form-group">
             				<label>작성자</label>
-            				<input type="text" class="form-control" name='writer' value="${article.writer}">
+            				<input type="text" class="form-control" name='writer' value="${article.writer}" readonly="readonly">
           				</div>
           
           				<div class="form-group">

@@ -44,9 +44,9 @@ header.masthead {
 				<div class="panel-body">
 				<h2 class="page-header"><span style="color: #00008B;">Totenham&People</span> 자유 게시판
 					<span id="count-per-page" style="float: right;">
-	                     <input class="btn btn-izone" type="button" value="10">  
-	                     <input class="btn btn-izone" type="button" value="20">   
-	                     <input class="btn btn-izone" type="button" value="30">
+	                     <input class="btn btn-tottenham" type="button" value="10">  
+	                     <input class="btn btn-tottenham" type="button" value="20">   
+	                     <input class="btn btn-tottenham" type="button" value="30">
                      </span>
 					
 				</h2>
@@ -174,7 +174,7 @@ header.masthead {
 	$(function() {
 		
 		//목록 개수가 변동하는 이벤트 처리
-		$("#count-per-page .btn-izone").click(function() {
+		$("#count-per-page .btn-tottenham").click(function() {
 			let count = $(this).val();
 			const keyword = "${param.keyword}";
 			const condition = "${param.condition}";

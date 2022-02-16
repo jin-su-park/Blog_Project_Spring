@@ -51,6 +51,10 @@ $(function() {
 
 function reply(){
 	var replyContent=$("#replyContent").val();
+	if(!replyContent.replace(/(^\s*)|(\s*$)/gi, "")){
+		alert("빈 댓글은 작성할 수 없습니다.");
+		replyContent.focus();
+	}else{
 	var boardNo="${article.boardNo}";
 	var param={"replyContent":replyContent, "boardNo": boardNo};
 	$.ajax({
@@ -62,6 +66,7 @@ function reply(){
 			listReply("1");
 		}
 	});
+	}
 }
 
 function listReply(num){
@@ -117,7 +122,7 @@ function listReply(num){
 		<div class="col-lg-12">
 			<div class="card" style="border: solid #00008B;">
 				<c:if test="${login!=null }">
-					<textarea rows="5" cols="80" id="replyContent" placeholder="댓글을 작성하세요">
+					<textarea rows="5" cols="80" id="replyContent">
 					</textarea>
 					<button type="button" id="btnReply">댓글작성</button>
 				</c:if>
