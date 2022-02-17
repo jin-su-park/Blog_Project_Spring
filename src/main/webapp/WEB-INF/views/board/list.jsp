@@ -13,7 +13,7 @@ header.masthead {
 	background-color: orange;
 	color: white;
 }
-.btn-izone {
+.btn-tottenham {
 	background-color: #00008B;
 	color: white;
 }

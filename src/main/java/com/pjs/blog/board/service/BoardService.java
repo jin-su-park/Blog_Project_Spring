@@ -48,7 +48,7 @@ public class BoardService implements IBoardService {
 			//각 게시물들의 작성 시간 밀리초로 읽어오기
 			long regTime = article.getRegDate().getTime();
 			
-			if(now - regTime < 60 * 60 * 24 *  1000) {
+			if(now - regTime < 60 * 60 * 12 *  1000) {
 				article.setNewMark(true);
 				article.setIsregForm(true);
 			}
