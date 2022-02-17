@@ -146,12 +146,12 @@ header.masthead {
 	                        <div class="input-group">
 	                            <input type="text" class="form-control" name="keyword" value="${param.keyword}" id="keywordInput" placeholder="검색어">
 	                            <span class="input-group-btn">
-	                                <input type="button" value="검색" class="btn btn-izone btn-flat" id="searchBtn">                                       
+	                                <input type="button" value="검색" class="btn btn-tottenham btn-flat" id="searchBtn">                                       
 	                            </span>
 	                        </div>
 	                    </div>
 	                    <div class="col-sm-2">
-							<a href="<c:url value='/board/write'/>" class="btn btn-izone float-right">글쓰기</a>
+							<a href="<c:url value='/board/write'/>" class="btn btn-tottenham float-right">글쓰기</a>
 						</div>
 						<div class="col-sm-2"></div>
 					</div>
