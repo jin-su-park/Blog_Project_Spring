@@ -72,7 +72,7 @@ header.masthead {
 				class="form-control tooltipstered" required="required"
 				aria-required="true" value="${user.email }"
 				style="margin-bottom: 25px; width: 100%; height: 40px; border: 1px solid #d9d9de"
-				placeholder="ex) ">
+				placeholder="ex) totenham@soccer.com">
 			</td>
 		</tr>
 		<tr>
